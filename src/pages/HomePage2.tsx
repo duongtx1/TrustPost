@@ -6,14 +6,17 @@ import About from "../components/HomePage/About";
 import Information from "../components/HomePage/Information";
 import Service from "../components/HomePage/Service";
 import ServiceCardGrid from "../components/HomePage/ServiceCard";
-function HomePage() {
+import Banner from "../components/HomePage/Banner";
+function HomePage2() {
     return (
       <Box sx={{
         width: '100vw', 
         height: '100px', 
       }}>
        <Header/>
+       <Banner/>
        <Service/>
+       <ServiceCardGrid/>
        <News/>
        <Information/>
        <About/>
@@ -22,4 +25,4 @@ function HomePage() {
     );
   }
   
-  export default HomePage;
+  export default HomePage2;
